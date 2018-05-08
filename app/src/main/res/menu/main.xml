@@ -1,0 +1,20 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/foodlogo"
+        android:orderInCategory="2"></item>
+    <item
+        android:id="@+id/item1"
+        android:orderInCategory="1"
+        android:title="Jeden"
+        android:visible="true"></item>
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/foodlogo"
+        android:orderInCategory="3"
+        android:title="Trzy"
+        android:visible="true"></item>
+
+</menu>

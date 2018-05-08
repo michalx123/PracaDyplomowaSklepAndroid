@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfood"
+    tools:context="com.example.mgluc.androidshoppracadyplomowa.SignIn">
+
+    <LinearLayout
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/idPhone"
+                android:hint="Numer Telefonu"
+                android:tag="To jest tag"
+                android:textColorHint="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="667873626"
+                android:textColor="@android:color/black"
+                android:inputType="phone"
+                android:textSize="38sp"
+                app:met_maxCharacters="9"
+                app:met_baseColor="@android:color/black"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@android:color/black"
+                app:met_singleLineEllipsis="true"
+                />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/idPassword"
+            android:hint="Hasło"
+            android:textColorHint="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:textColor="@android:color/black"
+            android:inputType="textPassword"
+            android:textSize="38sp"
+            app:met_maxCharacters="9"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSignIn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+        android:text="Zaloguj"
+        android:textColor="@android:color/white"
+        ></Button>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "383245709535",
+    "firebase_url": "https://androidshopprojketdyplomowy.firebaseio.com",
+    "project_id": "androidshopprojketdyplomowy",
+    "storage_bucket": "androidshopprojketdyplomowy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383245709535:android:e261569c8bf6a5ba",
+        "android_client_info": {
+          "package_name": "com.example.mgluc.androidshoppracadyplomowa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383245709535-ha3dh2f3tp27mt44fgqjiu8pq2669tgd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mgluc.androidshoppracadyplomowa",
+            "certificate_hash": "f4556cb9393af4d3fe8904051ca12fa0da66cef3"
+          }
+        },
+        {
+          "client_id": "383245709535-mt9ug618d8gcpqctruogmtadn6pdmih8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw_J95z6ESE76fb7x0JpjHFyg4UCuTmpE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383245709535-mt9ug618d8gcpqctruogmtadn6pdmih8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
