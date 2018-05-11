@@ -6,5 +6,7 @@
     <color name="btnSignIn">#6030ff</color>
     <color name="btnSignUp">#0dff00</color>
     <color name="BackgroundMain">#ffffff</color>
+    <color name="BackgroundMainOpacity">#76ffffff</color>
+    <color name="BackgroundMainOpacityDark">#8f5b5b5b</color>
     <color name="BarView">#ff7700</color>
 </resources>
